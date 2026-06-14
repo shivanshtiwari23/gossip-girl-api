@@ -2,11 +2,11 @@ spring:
   application:
     name: gossip-girl-api
 
-datasource:
-  url: ${DB_URL}
-  username: ${DB_USER}
-  password: ${DB_PASSWORD}
-  driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
@@ -19,7 +19,7 @@ datasource:
       max-request-size: 10MB
 
 server:
-  port: 8081
+  port: 8080
 
 admin:
   secret-token: ${ADMIN_SECRET}
