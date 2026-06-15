@@ -34,7 +34,3 @@ The Gossip Girl API serves as the central backend for the Gossip Girl platform. 
 The architecture is designed around a clear separation between frontend and backend, allowing the client application to be deployed independently while maintaining a scalable and portable server-side infrastructure.
 
 ---
-
-*"You know you love me."*
-
-**XOXO, Gossip Girl**
